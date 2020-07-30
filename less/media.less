@@ -1,0 +1,68 @@
+@media(max-width: 1200px) {
+	.wrapper {
+		padding: 0 50px;
+	}
+
+	.page {
+		.header {
+			overflow: hidden;
+			height: auto!important;
+		}
+
+		.pricing {
+			overflow: hidden;
+
+			.price-list {
+				.plan {
+					.description-plan {
+						line-height: 170%;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media(max-width: 900px) {
+	.page {
+		.header {
+			.content-header {
+				.top-header {
+					align-items: flex-start;
+					padding: 20px 0 0 0;
+
+					.menu {
+						display: none;
+					}
+
+					.mobile-hamburger-menu {
+						display: block;
+						visibility: hidden;
+
+					    .menu-icon {
+					        visibility: visible;
+					        font-size: 40px;
+					        color: #fff;
+					    }
+
+			            a {
+							color: #fff;
+						    text-decoration: none;
+						    padding: 10px 0;
+						    display: block;
+						    font-size: 16px;
+			            }
+			           
+					    &:hover {
+					        visibility: visible;
+					    }
+					
+						&:active {
+							visibility: hidden;
+						}
+					}
+				}
+			}
+		}
+	}
+}

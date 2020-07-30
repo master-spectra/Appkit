@@ -71,6 +71,9 @@ p {
 .page .header .content-header .top-header .menu a:hover {
   opacity: 1;
 }
+.page .header .content-header .top-header .mobile-hamburger-menu {
+  display: none;
+}
 .page .header .content-header .down-header {
   padding-top: 100px;
 }
@@ -126,6 +129,7 @@ p {
 }
 .page .about .description-about .text-description-about {
   color: #000;
+  line-height: 170%;
   font-size: 16px;
   opacity: 0.3;
 }

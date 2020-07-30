@@ -1,0 +1,46 @@
+@media (max-width: 1200px) {
+  .wrapper {
+    padding: 0 50px;
+  }
+  .page .header {
+    overflow: hidden;
+    height: auto!important;
+  }
+  .page .pricing {
+    overflow: hidden;
+  }
+  .page .pricing .price-list .plan .description-plan {
+    line-height: 170%;
+  }
+}
+@media (max-width: 900px) {
+  .page .header .content-header .top-header {
+    align-items: flex-start;
+    padding: 20px 0 0 0;
+  }
+  .page .header .content-header .top-header .menu {
+    display: none;
+  }
+  .page .header .content-header .top-header .mobile-hamburger-menu {
+    display: block;
+    visibility: hidden;
+  }
+  .page .header .content-header .top-header .mobile-hamburger-menu .menu-icon {
+    visibility: visible;
+    font-size: 40px;
+    color: #fff;
+  }
+  .page .header .content-header .top-header .mobile-hamburger-menu a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 0;
+    display: block;
+    font-size: 16px;
+  }
+  .page .header .content-header .top-header .mobile-hamburger-menu:hover {
+    visibility: visible;
+  }
+  .page .header .content-header .top-header .mobile-hamburger-menu:active {
+    visibility: hidden;
+  }
+}
