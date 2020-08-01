@@ -1,6 +1,6 @@
 @media (max-width: 1200px) {
   .wrapper {
-    padding: 0 50px;
+    padding: 0 15px;
   }
   .page .header {
     overflow: hidden;
@@ -42,5 +42,95 @@
   }
   .page .header .content-header .top-header .mobile-hamburger-menu:active {
     visibility: hidden;
+  }
+  .page .header .content-header .down-header {
+    padding-top: 0;
+  }
+  .page .header .content-header .down-header .description {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .page .header .content-header .down-header .description .text-info {
+    text-align: center;
+  }
+  .page .header .content-header .down-header .description .text-info .text-description {
+    line-height: 200%;
+  }
+  .page .header .content-header .down-header .description img {
+    padding-bottom: 50px;
+  }
+  .page .about {
+    overflow: hidden;
+  }
+  .page .about .cards .card .info-card .text-card {
+    line-height: 200%;
+  }
+  .page .testimonials {
+    overflow: hidden;
+  }
+  .page .testimonials .chat .user .massege .text-massege {
+    line-height: 200%;
+  }
+  .page .features {
+    overflow: hidden;
+  }
+  .page .features .main-content-features .tab-container {
+    flex-direction: column;
+  }
+  .page .team {
+    overflow: hidden;
+  }
+  .page .team .text-info-team .second-text-team {
+    line-height: 200%;
+  }
+  .page .team .dev-people {
+    flex-direction: column;
+    align-items: center;
+  }
+  .page .team .dev-people .profile {
+    width: 50%;
+  }
+  .page .team .dev-people .profile .info-profile .description-profile {
+    line-height: 200%;
+  }
+  .page .contact {
+    overflow: hidden;
+  }
+  .page .contact .text-contact {
+    line-height: 200%;
+  }
+}
+@media (max-width: 600px) {
+  .page .header .down-header img {
+    display: none;
+  }
+  .page .about .technology img {
+    display: none;
+  }
+  .page .about .cards {
+    flex-direction: column;
+  }
+  .page .about .cards .card {
+    width: 100%;
+    padding-bottom: 50px;
+  }
+  .page .testimonials .chat .user img {
+    display: none;
+  }
+  .page .testimonials .chat .user .massege {
+    width: 100%;
+  }
+  .page .features .main-content-features .tab-container .content-wrap img {
+    width: 100%;
+  }
+  .page .team .dev-people .profile {
+    width: 100%;
+  }
+  .page .pricing .price-list {
+    flex-direction: column;
+  }
+  .page .pricing .price-list .plan {
+    margin-bottom: 50px;
+    width: 90%;
   }
 }

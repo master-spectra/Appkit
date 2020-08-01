@@ -1,6 +1,6 @@
 @media(max-width: 1200px) {
 	.wrapper {
-		padding: 0 50px;
+		padding: 0 15px;
 	}
 
 	.page {
@@ -61,6 +61,171 @@
 							visibility: hidden;
 						}
 					}
+				}
+
+				.down-header {
+					padding-top: 0;
+
+					.description {
+						flex-direction: column-reverse;
+						align-items: center;
+						
+						.text-info {
+							text-align: center;
+
+							.text-description {
+								line-height: 200%;
+							}
+						}
+
+						img {
+							padding-bottom: 50px;
+						}
+					}
+				}
+			}
+		}
+		
+		.about {
+			overflow: hidden;
+
+			.cards {
+				.card {
+					.info-card {
+						.text-card {
+							line-height: 200%;
+						}
+					}
+				}
+			}
+		}
+
+		.testimonials {
+			overflow: hidden;
+
+			.chat {
+				.user {
+					.massege {
+						.text-massege {
+							line-height: 200%;
+						}
+					}
+				}
+			}
+		}
+
+		.features {
+			overflow: hidden;
+
+			.main-content-features {
+				.tab-container {
+					flex-direction: column;
+				}
+			}
+		}
+
+		.team {
+			overflow: hidden;
+
+			.text-info-team {
+				.second-text-team {
+					line-height: 200%;
+				}
+			}
+
+			.dev-people {
+				flex-direction: column;
+				align-items: center;
+
+				.profile {
+					width: 50%;
+					
+					.info-profile {
+						.description-profile {
+							line-height: 200%;
+						}
+					}
+				}
+			}
+		}
+
+		.contact {
+			overflow: hidden;
+
+			.text-contact {
+				line-height: 200%;
+			}
+		}
+	}
+}
+
+@media(max-width: 600px) {
+	.page {
+		.header {
+			.down-header {
+				img {
+					display: none;
+				}
+			}
+		}
+
+		.about {
+			.technology {
+				img {
+					display: none;
+				}
+			}
+			.cards {
+				flex-direction: column;
+
+				.card {
+					width: 100%;
+					padding-bottom: 50px;
+				}
+			}
+		}
+
+		.testimonials {
+			.chat {
+				.user {
+					img {
+						display: none;
+					}
+
+					.massege {
+						width: 100%;
+					}
+				}
+			}
+		}
+
+		.features {
+			.main-content-features {
+				.tab-container {
+					.content-wrap {
+						img {
+							width: 100%;
+						}
+					}
+				}
+			}
+		}
+
+		.team {
+			.dev-people {
+				.profile {
+					width: 100%;
+				}
+			}
+		}
+
+		.pricing {
+			.price-list {
+				flex-direction: column;
+
+				.plan {
+					margin-bottom: 50px;
+					width: 90%;
 				}
 			}
 		}
